@@ -1,23 +1,17 @@
-// main.c
-
 #include <stdio.h>
 
-void ft_swap(int *a, int *b);
-
-int main(void)
+int main(int argc, char const *argv[])
 {
-    int x = 5;
-    int y = 3;
+  int a = 5;
+  int b = 3;
 
-    ft_swap(&x, &y);
-    printf("Après échange: a = %d, b = %d\n", x, y);
+  a = a + b;
+  b = a - b;
+  a = a - b;
 
-    return 0;
+  printf("Après : a = %d, b = %d", a, b);
+  return 0;
 }
 
-void ft_swap(int *a, int *b)
-{
-    *a = *a + *b;
-    *b = *a - *b;
-    *a = *a - *b;
-}
+
+
