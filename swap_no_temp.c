@@ -1,19 +1,23 @@
+// main.c
+
 #include <stdio.h>
+
+void ft_swap(int *a, int *b);
 
 int main(void)
 {
-    int a, b;
+    int x = 5;
+    int y = 3;
 
-    // Lire deux entiers
-    scanf("%d %d", &a, &b);
-
-    // Échanger sans variable temporaire
-    a = a + b;
-    b = a - b;
-    a = a - b;
-
-    // Afficher le résultat
-    printf("Après échange: a = %d, b = %d\n", a, b);
+    ft_swap(&x, &y);
+    printf("Après échange: a = %d, b = %d\n", x, y);
 
     return 0;
+}
+
+void ft_swap(int *a, int *b)
+{
+    *a = *a + *b;
+    *b = *a - *b;
+    *a = *a - *b;
 }
