@@ -3,7 +3,6 @@
 int main(int argc, char const *argv[])
 {
   int a, b;
-  printf("Entrer deux nombres :");
   scanf("%d %d", &a, &b);
 
   a = a + b;
