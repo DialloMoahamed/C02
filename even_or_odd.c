@@ -7,10 +7,10 @@ int main()
     scanf("%d", &a);
 
     if (a % 2 == 0){
-        printf("%d est un nombre pair.", a);
+        printf("%d est pair.\n", a);
     }
     else{
-        printf("%d est un nombre impair.", a);
+        printf("%d est impair.\n", a);
     }
     return 0;
 }
