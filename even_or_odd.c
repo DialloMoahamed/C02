@@ -6,12 +6,10 @@ int main(int argc, char const *argv[])
 
     scanf("%d", &a);
 
-    if (a % 2 == 0)
-    {
+    if (a % 2 == 0){
         printf("%d est un nombre pair.\n", a);
     }
-    else
-    {
+    else{
         printf("%d est un nombre impair.\n", a);
     }
     return 0;
