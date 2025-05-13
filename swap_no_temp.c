@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
     int a , b;
 
@@ -8,6 +8,6 @@ int main(int argc, char const *argv[])
     a = a + b;
     b = a - b;
     a = a - b;
-    printf("Après échange: a = %d, b = %d\n", a, b);
+    printf("Après échange: a = %d, b = %d", a, b);
     return 0;
 }
