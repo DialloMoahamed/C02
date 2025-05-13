@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Ce script permet de lire deux nombres et les inverser sans utiliser de variable temporaire
+
 int main()
 {
   int a, b;

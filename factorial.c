@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Ce script permet de lire un nombre entier et calculer son factoriel
+
 int main(int argc, char const *argv[])
 {
     int a, factoriel=1;

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Ce script permet de lire un entier et indiquer s’il est pair ou impair
+
 int main()
 {
     int a;

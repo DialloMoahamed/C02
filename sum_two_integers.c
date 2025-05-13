@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Ce script demande à l’utilisateur de saisir deux entiers, puis afficher leur somme
+
 int main(int argc, char const *argv[])
 {
     int a, b, sum;
