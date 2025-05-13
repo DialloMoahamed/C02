@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
   int a, b;
+  printf("Entrer deux nombres :");
   scanf("%d %d", &a, &b);
 
   a = a + b;
