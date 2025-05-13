@@ -2,15 +2,15 @@
 
 int main(int argc, char const *argv[])
 {
-    int entier;
-    scanf("%d", &entier);
-    if (entier % 2 != 0)
+    int a;
+    scanf("%d", &a);
+    if (a % 2 != 0)
     {
-        printf("%d est un nombre impair.", entier);
+        printf("%d est un nombre impair.", a);
     }
     else
     {
-        printf("%d est un nombre pair.", entier);
+        printf("%d est un nombre pair.", a);
     }
     
     return 0;
