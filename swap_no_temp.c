@@ -1,14 +1,19 @@
 #include <stdio.h>
 
-int main() {
-  int a = 5;
-  int b = 3;
-  printf("%d %d\n", a, b);
-  a = a + b;
-  b = a - b;
-  a = a - b;
+int main(void)
+{
+    int a, b;
 
-  printf("Après échange: %d %d\n", a, b);
+    // Lire deux entiers
+    scanf("%d %d", &a, &b);
 
-  return 0;
+    // Échanger sans variable temporaire
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    // Afficher le résultat
+    printf("Après échange: a = %d, b = %d\n", a, b);
+
+    return 0;
 }
