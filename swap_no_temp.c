@@ -4,9 +4,9 @@ int main() {
   int a = 5;
   int b = 3;
   printf("%d %d\n", a, b);
-  a = a ^ b;
-  b = a ^ b;
-  a = a ^ b;
+  a = a + b;
+  b = a - b;
+  a = a - b;
 
   printf("Après échange: a = %d, b = %d\n", a, b);
 
