@@ -8,11 +8,11 @@ int main(int argc, char const *argv[])
 
     if (a % 2 == 0)
     {
-        printf("%d est un nombre pair.", a);
+        printf("\n%d est un nombre pair.", a);
     }
     else if (a % 2 != 0)
     {
-        printf("%d est un nombre impair.", a);
+        printf("\n%d est un nombre impair.", a);
     }
     return 0;
 }
