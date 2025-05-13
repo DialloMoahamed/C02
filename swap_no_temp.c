@@ -2,8 +2,8 @@
 
 int main()
 {
-    int a ,  b;
-    scanf("%d %d", &a, &b);
+    int a = 5;
+    int b = 3;
 
     a = a + b;
     b = a - b;
