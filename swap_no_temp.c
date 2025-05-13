@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int a = 10;
-  int b = 20;
+  int a = 5;
+  int b = 3;
 
   a = a ^ b;
   b = a ^ b;
