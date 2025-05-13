@@ -8,6 +8,7 @@ int main()
     a = a + b;
     b = a - b;
     a = a - b;
-    printf("Après échange:  %d, %d", a, b);
+
+    printf("Après echange: a = %d, b = %d\n", a, b);
     return 0;
 }
