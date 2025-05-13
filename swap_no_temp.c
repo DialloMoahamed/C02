@@ -2,12 +2,10 @@
 
 int main()
 {
-    int a , b;
-
-    scanf("%d %d", &a, &b);
+    int a = 5 , b = 3;
     a = a + b;
     b = a - b;
     a = a - b;
-    printf("a = %d, b = %d\n", a, b);
+    printf("Après échange: a = %d, b = %d", a, b);
     return 0;
 }
